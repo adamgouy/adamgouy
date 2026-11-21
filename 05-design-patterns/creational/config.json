@@ -1,0 +1,22 @@
+{
+    "app": {
+        "name": "ShopAPI",
+        "debug": false,
+        "version": "1.4.0"
+    },
+    "database": {
+        "host": "db.internal",
+        "port": 5432,
+        "name": "shop"
+    },
+    "email": {
+        "smtp_host": "smtp.example.com",
+        "smtp_port": 587,
+        "sender": "noreply@example.com"
+    },
+    "payment": {
+        "provider": "stripe",
+        "environment": "sandbox",
+        "currency": "EUR"
+    }
+}
