@@ -1,0 +1,3 @@
+# Keep Unix line endings for shell scripts, even when the repo is cloned on Windows
+# (a script saved with Windows line endings fails with "$'\r': command not found").
+*.sh text eol=lf

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets: API keys live in environment variables, never in the repo
+.env
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Files generated when running the exercises
+01-bash/env_install.log
+05-design-patterns/behavioral/output/
